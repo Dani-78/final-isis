@@ -78,7 +78,7 @@ Se incorporaron diferentes alternativas de comunicación:
 
 De esta manera, el usuario puede identificar rápidamente dónde solicitar asistencia en caso de presentar alguna dificultad durante la búsqueda.
 
-## 👥 Usuarios beneficiados
+## Usuarios beneficiados
 
 La propuesta está orientada principalmente a:
 
@@ -89,9 +89,7 @@ La propuesta está orientada principalmente a:
 - Usuarios de los servicios bibliotecarios.
 - Personal encargado de brindar soporte bibliotecario.
 
----
-
-## 💡 Conclusión
+## Conclusión
 
 El rediseño busca mantener las funcionalidades principales del sistema de consulta bibliotecaria, pero presentándolas mediante una interfaz más clara, organizada y fácil de utilizar.
 
