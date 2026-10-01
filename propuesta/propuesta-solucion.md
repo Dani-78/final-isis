@@ -2,7 +2,7 @@
 
 ## 1. Título de la propuesta
 
-**Rediseño de la interfaz de consulta bibliotecaria de la Biblioteca Piloto del Caribe para mejorar la experiencia de búsqueda y acceso a recursos bibliográficos.**
+**CLENA+: Plataforma de búsqueda bibliográfica*
 
 ---
 
