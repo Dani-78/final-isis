@@ -1,10 +1,31 @@
-# Rediseño de la Interfaz de Consulta Bibliotecaria
-## Descripción del proyecto
-Este proyecto presenta una propuesta de mejoramiento y modernización de la interfaz del sistema de consulta de la biblioteca del CLENA, en Barranquilla.
-La propuesta surge a partir del análisis de la interfaz utilizada anteriormente, identificando diferentes aspectos relacionados con la organización de la información, facilidad de navegación, accesibilidad y experiencia del usuario.
-A partir de este análisis se desarrolló una nueva propuesta de interfaz que conserva las principales funcionalidades del sistema original, pero reorganiza sus elementos para ofrecer una experiencia más clara, moderna e intuitiva.
+# Problema seleccionado
+
+## Rediseño de la interfaz de consulta bibliotecaria
+
+### Problema seleccionado
+
+De los problemas identificados, se seleccionó como problema principal la **organización poco clara de la interfaz de consulta bibliotecaria**, debido a que este aspecto puede afectar directamente la facilidad de navegación y el proceso mediante el cual los usuarios buscan información.
+
+La distribución actual concentra diferentes funcionalidades dentro de formularios y menús, haciendo que algunas opciones no sean inmediatamente reconocibles. Esto puede generar confusión, especialmente en usuarios que utilizan el sistema por primera vez.
+
+### ¿A quién afecta?
+
+El problema puede afectar principalmente a estudiantes, docentes, investigadores y demás usuarios que necesitan consultar los recursos disponibles en la biblioteca.
+
+### ¿Cómo afecta?
+
+La organización de los elementos puede:
+
+- Aumentar el tiempo necesario para realizar una consulta.
+- Dificultar la identificación de las herramientas disponibles.
+- Generar confusión entre las diferentes modalidades de búsqueda.
+- Hacer menos visible la posibilidad de solicitar ayuda.
+- Generar una experiencia menos intuitiva para usuarios nuevos.
+
 ## Objetivo
+
 Mejorar la experiencia de los usuarios al momento de consultar los recursos disponibles en la biblioteca, facilitando la búsqueda de información y el acceso a las diferentes herramientas del sistema.
+
 La propuesta busca principalmente:
 
 - Simplificar el proceso de búsqueda.
@@ -13,6 +34,51 @@ La propuesta busca principalmente:
 - Modernizar visualmente la plataforma.
 - Reducir la cantidad de pasos necesarios para realizar una consulta.
 - Facilitar el contacto con el personal de la biblioteca.
+
+## Propuesta de solución
+
+Se propone realizar un **rediseño de la interfaz de consulta bibliotecaria**, conservando las funcionalidades principales del sistema original pero reorganizándolas de una manera más clara.
+
+La nueva interfaz se dividiría principalmente en tres áreas:
+
+### 1. Búsqueda general
+
+Se organizarían los criterios de búsqueda en campos claramente identificados:
+
+- Palabra clave.
+- Autor.
+- Título.
+- Tipo de material.
+- Año de publicación.
+- Idioma.
+- Área temática.
+
+También se incluirían botones visibles de **Buscar** y **Limpiar**.
+
+### 2. Búsqueda temática
+
+Se crearía una sección independiente para permitir la exploración por categorías y subcategorías. También se presentarían temas frecuentes como:
+
+- Arquitectura.
+- Bases de datos.
+- Redes.
+- Programación.
+- Sistemas operativos.
+- Seguridad informática.
+- Inteligencia artificial.
+- Otros.
+
+Además, se incorporaría una búsqueda mediante palabras clave relacionadas con cada tema.
+
+### 3. Contacto directo
+
+Se harían más visibles las opciones para solicitar asistencia, incluyendo:
+
+- Chat con un bibliotecario.
+- Envío de mensajes.
+- Solicitud de ayuda.
+- Información de contacto.
+- Horarios de atención.
 
 ## Interfaz anterior
 
@@ -26,57 +92,7 @@ La interfaz anterior permitía realizar consultas mediante diferentes opciones c
 - Selección de biblioteca.
 - Búsqueda mediante palabras clave.
 
-Aunque el sistema cumplía con su función principal, visualmente presentaba una distribución poco intuitiva para los usuarios actuales.
-Además, varias opciones se encontraban concentradas dentro de formularios y menús que podían dificultar la identificación rápida de las herramientas disponibles.
-
-## Propuesta de nueva interfaz
-
-La nueva propuesta reorganiza las funcionalidades principales del sistema mediante una estructura visual más sencilla.
-
-La interfaz se divide principalmente en tres áreas:
-
-1. Búsqueda general
-
-Se mejoró el formulario de consulta incorporando campos claramente identificados para:
-
-- Palabra clave.
-- Autor.
-- Título.
-- Tipo de material.
-- Año de publicación.
-- Idioma.
-- Área temática.
-
-También se incorporaron botones claramente visibles para **Buscar** y **Limpiar** los criterios ingresados.
-
-2. Búsqueda temática
-
-Se creó una sección independiente para facilitar la búsqueda de información por áreas o temas específicos.
-El usuario puede seleccionar categorías y subcategorías, además de utilizar temas populares como:
-
-- Arquitectura.
-- Bases de datos.
-- Redes.
-- Programación.
-- Sistemas operativos.
-- Seguridad informática.
-- Inteligencia artificial.
-- Otros.
-
-También se agregó un campo para realizar búsquedas mediante palabras clave relacionadas con el tema.
-
-3. Contacto directo
-
-Una de las mejoras propuestas fue hacer más visible el acceso al personal de la biblioteca.
-Se incorporaron diferentes alternativas de comunicación:
-
-- Chat con un bibliotecario.
-- Envío de mensajes.
-- Solicitud de ayuda.
-- Información de contacto.
-- Horarios de atención.
-
-De esta manera, el usuario puede identificar rápidamente dónde solicitar asistencia en caso de presentar alguna dificultad durante la búsqueda.
+Aunque el sistema cumplía con su función principal, visualmente presentaba una distribución poco intuitiva para los usuarios actuales. Además, varias opciones se encontraban concentradas dentro de formularios y menús que podían dificultar la identificación rápida de las herramientas disponibles.
 
 ## Usuarios beneficiados
 
