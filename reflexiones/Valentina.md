@@ -1,1 +1,5 @@
+# Reflexión individual
+
+## ¿Qué aprendí sobre la Ingeniería de Sistemas al observar un problema real y trabajar en equipo para proponer una solución tecnológica?
+ 
 Al trabajar en equipo aprendí a escuchar a cada uno para llegar a soluciones pertinentes para el trabajoso y aprendí sobre cómo mejorar un Programa antiguo ya que requiere de ciertas mejoras y así se puede ayudar a una comunidad significativa en Barranquilla. Por medio de la tecnología pude entender el uso de plataformas que antes no conocía como github y los distintos repositorios
