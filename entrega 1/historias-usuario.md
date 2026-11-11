@@ -1,63 +1,163 @@
 # Historias de usuario
 
-Estas historias describen qué debería permitir la propuesta de interfaz CLENA+. El alcance de esta entrega es levantamiento y diseño de prototipo; **no se implementará el sistema**. Los Issues solicitados por la pauta pueden registrar el análisis/diseño de cada historia (por ejemplo, definir el flujo y representarlo en Figma), no tareas de programación. Los enlaces reales de Issues todavía están pendientes.
+**Proyecto 2 · Catálogo Bibliográfico Accesible**
+CLENA - Biblioteca Piloto del Caribe
 
-## Consulta pública — prioridad alta
+Estas historias describen lo que debe permitir la aplicación que construye el equipo de Backend. Cada una está registrada como Issue en su repositorio con la etiqueta `historia-usuario`. Los puntos los estima el equipo de Backend y nosotros los registramos.
 
-### HU-01 — Buscar un recurso
+## Resumen
 
-Como estudiante, docente o usuario de la biblioteca, quiero buscar por palabra clave, título o autor para encontrar los recursos que necesito.
+| HU | Historia | Prioridad | Puntos | Autor | Issue |
+| --- | --- | --- | --- | --- | --- |
+| HU-01 | Buscar con un solo campo desde el inicio | Debe tener | - | - | - |
+| HU-02 | Buscar con filtros avanzados | Debe tener | - | - | - |
+| HU-03 | Ver los resultados de forma clara | Debe tener | - | - | - |
+| HU-04 | Ver el detalle y la ubicación de un recurso | Debe tener | - | - | - |
+| HU-05 | Explorar la biblioteca por temas | Debe tener | - | - | - |
+| HU-06 | Pedir ayuda a un bibliotecario | Debe tener | - | - | - |
+| HU-07 | Encontrar un libro con una parte del título | Debe tener | - | - | - |
+| HU-08 | Leer con letra grande y buen contraste | Debe tener | - | - | - |
+| HU-09 | Buscar por tipo de material | Debe tener | - | - | - |
+| HU-10 | Usar el catálogo desde el celular | Debería tener | - | - | - |
+| HU-11 | Ver temas frecuentes sugeridos | Debería tener | - | - | - |
+| HU-12 | Reconocer los libros por su portada | Podría tener | - | - | - |
 
-**Issue sugerido (diseño):** `HU-01 — Diseñar el flujo de búsqueda desde Inicio`. **Alcance del Issue:** describir y representar en el prototipo la entrada de búsqueda y su navegación a resultados. **Enlace/estado real:** pendiente de crear o enlazar.
+---
 
-### HU-02 — Filtrar una búsqueda
+## Consulta pública
 
-Como usuario, quiero combinar filtros por tipo de material, año, idioma y área temática para reducir los resultados y encontrar recursos pertinentes.
+### HU-01 · Buscar con un solo campo desde el inicio
 
-**Issue sugerido (diseño):** `HU-02 — Diseñar la búsqueda avanzada y sus filtros`. **Alcance del Issue:** definir criterios visibles y representar cómo se aplican y limpian en el prototipo. **Enlace/estado real:** pendiente de crear o enlazar.
+**Como** visitante poco cómodo con la tecnología, **quiero** buscar un libro escribiendo solo una palabra en un único campo **para** encontrarlo sin tener que entender todos los filtros.
 
-### HU-03 — Revisar resultados
+**Criterios de aceptación:**
+- **Dado que** abro la pantalla de inicio, **cuando** cargue, **entonces** veo un solo campo de búsqueda grande y un botón "Buscar" visible.
+- **Dado que** escribo "caribe" en el campo, **cuando** presiono Buscar, **entonces** aparece una lista de materiales relacionados.
+- **Dado que** presiono Buscar con el campo vacío, **cuando** ocurra, **entonces** el sistema me avisa que escriba algo.
 
-Como usuario, quiero comparar resultados organizados para elegir un recurso.
+**Prioridad:** Debe tener · **Puntos:** - · **Autor:** - · **Issue:** -
 
-**Issue sugerido (diseño):** `HU-03 — Diseñar la pantalla de resultados`. **Alcance del Issue:** organizar los datos bibliográficos disponibles y proponer estados sin resultados/error en el prototipo. **Enlace/estado real:** pendiente de crear o enlazar.
+### HU-02 · Buscar con filtros avanzados
 
-### HU-04 — Consultar detalles
+**Como** usuario que ya sabe qué busca, **quiero** combinar filtros por autor, título, tipo de material, año, idioma y área temática **para** encontrar un recurso específico entre muchos.
 
-Como usuario, quiero consultar la información disponible de un recurso para determinar si responde a mi necesidad.
+**Criterios de aceptación:**
+- **Dado que** estoy en la búsqueda avanzada, **cuando** la abro, **entonces** veo cada filtro en un campo con su etiqueta clara.
+- **Dado que** escribo un autor y elijo un idioma, **cuando** presiono Buscar, **entonces** solo veo resultados que cumplen ambos filtros.
+- **Dado que** apliqué varios filtros, **cuando** presiono Limpiar, **entonces** todos los campos quedan vacíos.
 
-**Issue sugerido (diseño):** `HU-04 — Proponer la vista de detalle de un recurso`. **Alcance del Issue:** definir la jerarquía visual de los datos disponibles y el retorno a resultados; representar la pantalla si está dentro del prototipo. No asumir disponibilidad real. **Enlace/estado real:** pendiente de crear o enlazar.
+**Prioridad:** Debe tener · **Puntos:** - · **Autor:** - · **Issue:** -
 
-### HU-05 — Explorar por tema
+### HU-03 · Ver los resultados de forma clara
 
-Como usuario que no conoce el título o autor, quiero explorar recursos por categorías para descubrir materiales relacionados con un área.
+**Como** usuario de la biblioteca, **quiero** ver los resultados ordenados con título, autor y tipo de material **para** identificar rápido cuál es el que necesito.
 
-**Issue sugerido (diseño):** `HU-05 — Diseñar la exploración por temas`. **Alcance del Issue:** organizar categorías y representar la navegación hacia recursos relacionados en el prototipo. **Enlace/estado real:** pendiente de crear o enlazar.
+**Criterios de aceptación:**
+- **Dado que** hice una búsqueda, **cuando** aparecen los resultados, **entonces** cada uno muestra título, autor y tipo de material.
+- **Dado que** no hay coincidencias, **cuando** termina la búsqueda, **entonces** veo un mensaje que me sugiere cambiar las palabras o pedir ayuda.
+- **Dado que** hay muchos resultados, **cuando** los reviso, **entonces** están divididos en páginas.
 
-### HU-06 — Obtener ayuda
+**Prioridad:** Debe tener · **Puntos:** - · **Autor:** - · **Issue:** -
 
-Como usuario, quiero encontrar instrucciones y canales oficiales de ayuda para resolver dudas sobre la consulta.
+### HU-04 · Ver el detalle y la ubicación de un recurso
 
-**Issue sugerido (diseño):** `HU-06 — Diseñar la pantalla de ayuda y contacto`. **Alcance del Issue:** proponer instrucciones y preguntas frecuentes; dejar datos/canales oficiales sujetos a confirmación institucional. **Enlace/estado real:** pendiente de crear o enlazar.
+**Como** usuario de la biblioteca, **quiero** abrir un recurso y ver su información y dónde está en la biblioteca **para** ir directo a buscarlo sin preguntar.
 
-## Personal — prioridad media y sujeta a validación
+**Criterios de aceptación:**
+- **Dado que** estoy en los resultados, **cuando** abro un recurso, **entonces** veo su título, autor, año, idioma y tipo de material.
+- **Dado que** el recurso está disponible, **cuando** veo su detalle, **entonces** aparecen la sala, la sección y el estante donde está.
+- **Dado que** estoy en el detalle, **cuando** presiono "Volver", **entonces** regreso a mis resultados sin perder la búsqueda.
 
-### HU-07 — Acceder a funciones del personal
+**Prioridad:** Debe tener · **Puntos:** - · **Autor:** - · **Issue:** -
 
-Como trabajador autorizado, quiero autenticarme mediante el mecanismo institucional para acceder a las funciones correspondientes a mi rol.
+### HU-05 · Explorar la biblioteca por temas
 
-El acceso del personal es una pantalla demostrativa opcional, no parte necesaria del alcance público de la entrega. Si deciden incluir su diseño como historia del proyecto, usar el Issue sugerido `HU-07 — Proponer visualmente el acceso del personal`, aclarando que no se implementa autenticación ni se confirma necesidad institucional. **Enlace:** pendiente; considerar fuera del alcance principal.
+**Como** usuario que no conoce el título ni el autor, **quiero** explorar por categorías y subcategorías **para** descubrir materiales relacionados con un área.
 
-## Funciones futuras — sujetas a confirmación
+**Criterios de aceptación:**
+- **Dado que** entro a "Explorar por temas", **cuando** se carga, **entonces** veo las categorías principales (por ejemplo, Programación, Redes o Inteligencia artificial).
+- **Dado que** elijo una categoría, **cuando** la abro, **entonces** veo sus subcategorías y los materiales de ese tema.
+- **Dado que** estoy dentro de una categoría, **cuando** quiero volver, **entonces** hay un botón visible para regresar.
 
-### HU-08 — Consultar préstamos
+**Prioridad:** Debe tener · **Puntos:** - · **Autor:** - · **Issue:** -
 
-Como usuario identificado, quiero consultar mis préstamos y fechas de devolución para conocer su estado. **Fuera del alcance de esta entrega:** es una función futura que requiere confirmar un sistema institucional integrable. No crear Issue de implementación para esta entrega.
+### HU-06 · Pedir ayuda a un bibliotecario
 
-### HU-09 — Consultar reservas
+**Como** usuario que no encuentra lo que busca, **quiero** contactar fácilmente al personal de la biblioteca **para** resolver mi duda sin sentir pena ni perder tiempo.
 
-Como usuario identificado, quiero consultar mis reservas para conocer su estado. **Fuera del alcance de esta entrega:** es una función futura que requiere confirmar que la biblioteca ofrece reservas e integración. No crear Issue de implementación para esta entrega.
+**Criterios de aceptación:**
+- **Dado que** estoy en cualquier pantalla, **cuando** busco ayuda, **entonces** veo un botón visible de "Ayuda" o "Hablar con un bibliotecario".
+- **Dado que** abro la sección de ayuda, **cuando** se carga, **entonces** veo instrucciones de uso, preguntas frecuentes, información de contacto y horarios de atención.
+- **Dado que** envío un mensaje, **cuando** lo confirmo, **entonces** el sistema me muestra que fue enviado.
 
-## Registro de Issues
+**Prioridad:** Debe tener · **Puntos:** - · **Autor:** - · **Issue:** -
 
-Como la pauta pide enlace a cada Issue, para el alcance principal conviene crear seis Issues que documenten las tareas de diseño de HU-01 a HU-06 y pegar el enlace real junto a cada historia. No son tickets de implementación. HU-07 es opcional; HU-08 y HU-09 quedan fuera de esta entrega.
+### HU-07 · Encontrar un libro con una parte del título
+
+**Como** usuario de la biblioteca, **quiero** buscar escribiendo solo una parte del título **para** encontrarlo aunque no recuerde el nombre exacto.
+
+**Criterios de aceptación:**
+- **Dado que** escribo "cien años sole", **cuando** presiono Buscar, **entonces** aparece "Cien años de soledad" entre los primeros resultados.
+- **Dado que** escribo una palabra sin tilde o con una letra mal, **cuando** busco, **entonces** el sistema igual muestra resultados parecidos.
+
+**Prioridad:** Debe tener · **Puntos:** - · **Autor:** - · **Issue:** -
+
+### HU-08 · Leer con letra grande y buen contraste
+
+**Como** adulto mayor, **quiero** que el texto sea grande y se vea con buen contraste **para** leer sin esforzarme ni pedir ayuda.
+
+**Criterios de aceptación:**
+- **Dado que** abro cualquier pantalla, **cuando** se carga, **entonces** el texto tiene un tamaño mínimo de 16 px.
+- **Dado que** reviso botones y campos, **cuando** los veo, **entonces** son grandes y tienen colores con buen contraste.
+- **Dado que** hay un formulario, **cuando** lo veo, **entonces** cada campo tiene su etiqueta visible.
+
+**Prioridad:** Debe tener · **Puntos:** - · **Autor:** - · **Issue:** -
+
+### HU-09 · Buscar por tipo de material
+
+**Como** usuario que quiere un material concreto, **quiero** filtrar por tipo (libro, periódico, poesía, cómic) **para** ir directo a lo que quiero leer.
+
+**Criterios de aceptación:**
+- **Dado que** estoy en la búsqueda, **cuando** abro el filtro de tipo de material, **entonces** veo las opciones disponibles.
+- **Dado que** elijo "Periódico", **cuando** busco, **entonces** solo veo resultados de ese tipo.
+
+**Prioridad:** Debe tener · **Puntos:** - · **Autor:** - · **Issue:** -
+
+### HU-10 · Usar el catálogo desde el celular
+
+**Como** usuario de la biblioteca, **quiero** abrir el catálogo desde mi celular **para** buscar sin esperar un computador de la biblioteca.
+
+**Criterios de aceptación:**
+- **Dado que** abro el sitio desde un celular, **cuando** se carga, **entonces** todo se ve completo y sin tener que hacer zoom.
+- **Dado que** escaneo un código QR en la biblioteca, **cuando** lo abro, **entonces** llego directo a la pantalla de búsqueda.
+
+**Prioridad:** Debería tener · **Puntos:** - · **Autor:** - · **Issue:** -
+
+### HU-11 · Ver temas frecuentes sugeridos
+
+**Como** usuario sin una idea clara de qué leer, **quiero** ver temas populares sugeridos **para** tener por dónde empezar.
+
+**Criterios de aceptación:**
+- **Dado que** estoy en el inicio, **cuando** lo veo, **entonces** aparece una lista de temas frecuentes.
+- **Dado que** toco un tema sugerido, **cuando** lo elijo, **entonces** veo los materiales de ese tema.
+
+**Prioridad:** Debería tener · **Puntos:** - · **Autor:** - · **Issue:** -
+
+### HU-12 · Reconocer los libros por su portada
+
+**Como** usuario joven que se guía por imágenes, **quiero** ver la portada de cada resultado **para** reconocer lo que busco sin leer tanto.
+
+**Criterios de aceptación:**
+- **Dado que** aparecen resultados, **cuando** los reviso, **entonces** cada uno muestra su portada si está disponible.
+- **Dado que** un recurso no tiene portada, **cuando** aparece en la lista, **entonces** se muestra una imagen genérica por defecto.
+
+**Prioridad:** Podría tener · **Puntos:** - · **Autor:** - · **Issue:** -
+
+---
+
+## Fuera del alcance de esta entrega
+
+Estas funciones se consideraron, pero no se construyen ahora porque dependen de confirmar con la biblioteca que existen y que se pueden integrar:
+
+- **Acceso del personal:** Que un trabajador autorizado se autentique para usar funciones internas.
+- **Consultar préstamos y reservas:** Que un usuario identificado vea el estado de sus préstamos, fechas de devolución y reservas.
