@@ -25,6 +25,7 @@ Introducción a la Ingeniería de Sistemas y Computación · Entrega 1
 ## Equipo de Backend aliado
 
 - **Integrantes:** -
+
 Joshua Lobo Ríos
 
 Kesly Michell Rodríguez Salcedo
