@@ -17,17 +17,17 @@ Introducción a la Ingeniería de Sistemas y Computación · Entrega 1
 
 ## Equipo de Backend
 
-- **Integrantes:** 
+**Integrantes:** 
 
-Joshua Lobo Ríos
+- Joshua Lobo Ríos
 
-Kesly Michell Rodríguez Salcedo
+- Kesly Michell Rodríguez Salcedo
 
-Santiago Vengoechea Noriega
+- Santiago Vengoechea Noriega
 
-Luis David Robles González
+- Luis David Robles González
 
-Daniel José Romero Martínez
+- Daniel José Romero Martínez
 
 ---
 
