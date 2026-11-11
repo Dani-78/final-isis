@@ -155,9 +155,11 @@ Estas historias describen lo que debe permitir la aplicación que construye el e
 
 ---
 
-## Fuera del alcance de esta entrega
+Los siguientes enlaces corresponden a Issues de GitHub, distintos de las historias de usuario. Se registran en el orden en que fueron compartidos. Falta revisar sus títulos/descripciones para vincular cada Issue con la historia correspondiente; no se presume una relación por el número ni por el orden.
 
-Estas funciones se consideraron, pero no se construyen ahora porque dependen de confirmar con la biblioteca que existen y que se pueden integrar:
-
-- **Acceso del personal:** Que un trabajador autorizado se autentique para usar funciones internas.
-- **Consultar préstamos y reservas:** Que un usuario identificado vea el estado de sus préstamos, fechas de devolución y reservas.
+- [Issue #18](https://github.com/Dani-78/final-isis/issues/18) — historia relacionada: por identificar.
+- [Issue #19](https://github.com/Dani-78/final-isis/issues/19) — historia relacionada: por identificar.
+- [Issue #17](https://github.com/Dani-78/final-isis/issues/17) — historia relacionada: por identificar.
+- [Issue #16](https://github.com/Dani-78/final-isis/issues/16) — historia relacionada: por identificar.
+- [Issue #15](https://github.com/Dani-78/final-isis/issues/15) — historia relacionada: por identificar.
+- [Issue #14](https://github.com/Dani-78/final-isis/issues/14) — historia relacionada: por identificar.
