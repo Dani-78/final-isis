@@ -12,13 +12,13 @@ Estas historias describen lo que debe permitir la aplicación que construye el e
 | HU-01 | Buscar con un solo campo desde el inicio | Debe tener | - | - | - |
 | HU-02 | Buscar con filtros avanzados | Debe tener | - | - | - |
 | HU-03 | Ver los resultados de forma clara | Debe tener | - | - | - |
-| HU-04 | Ver el detalle y la ubicación de un recurso | Debe tener | - | - | - |
+| HU-04 | Ver el detalle y la ubicación de un recurso | Debería tener | - | - | - |
 | HU-05 | Explorar la biblioteca por temas | Debe tener | - | - | - |
-| HU-06 | Pedir ayuda a un bibliotecario | Debe tener | - | - | - |
+| HU-06 | Pedir ayuda a un bibliotecario | Podría tener | - | - | - |
 | HU-07 | Encontrar un libro con una parte del título | Debe tener | - | - | - |
 | HU-08 | Leer con letra grande y buen contraste | Debe tener | - | - | - |
 | HU-09 | Buscar por tipo de material | Debe tener | - | - | - |
-| HU-10 | Usar el catálogo desde el celular | Debería tener | - | - | - |
+| HU-10 | Usar el catálogo desde el celular | Podría tener | - | - | - |
 | HU-11 | Ver temas frecuentes sugeridos | Debería tener | - | - | - |
 | HU-12 | Reconocer los libros por su portada | Podría tener | - | - | - |
 
