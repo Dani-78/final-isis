@@ -68,7 +68,7 @@ Estas historias describen lo que debe permitir la aplicación que construye el e
 - **Dado que** el recurso está disponible, **cuando** veo su detalle, **entonces** aparecen la sala, la sección y el estante donde está.
 - **Dado que** estoy en el detalle, **cuando** presiono "Volver", **entonces** regreso a mis resultados sin perder la búsqueda.
 
-**Prioridad:** Debe tener · **Puntos:** - · **Autor:** - · **Issue:** -
+**Prioridad:** Debería tener · **Puntos:** - · **Autor:** - · **Issue:** -
 
 ### HU-05 · Explorar la biblioteca por temas
 
@@ -90,7 +90,7 @@ Estas historias describen lo que debe permitir la aplicación que construye el e
 - **Dado que** abro la sección de ayuda, **cuando** se carga, **entonces** veo instrucciones de uso, preguntas frecuentes, información de contacto y horarios de atención.
 - **Dado que** envío un mensaje, **cuando** lo confirmo, **entonces** el sistema me muestra que fue enviado.
 
-**Prioridad:** Debe tener · **Puntos:** - · **Autor:** - · **Issue:** -
+**Prioridad:** Podría tener · **Puntos:** - · **Autor:** - · **Issue:** -
 
 ### HU-07 · Encontrar un libro con una parte del título
 
@@ -131,7 +131,7 @@ Estas historias describen lo que debe permitir la aplicación que construye el e
 - **Dado que** abro el sitio desde un celular, **cuando** se carga, **entonces** todo se ve completo y sin tener que hacer zoom.
 - **Dado que** escaneo un código QR en la biblioteca, **cuando** lo abro, **entonces** llego directo a la pantalla de búsqueda.
 
-**Prioridad:** Debería tener · **Puntos:** - · **Autor:** - · **Issue:** -
+**Prioridad:** Podría tener · **Puntos:** - · **Autor:** - · **Issue:** -
 
 ### HU-11 · Ver temas frecuentes sugeridos
 
