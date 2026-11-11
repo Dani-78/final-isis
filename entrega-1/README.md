@@ -1,6 +1,6 @@
 # Catálogo Bibliográfico Accesible
 
-**Proyecto 2 (P2) · CLENA - Biblioteca Piloto del Caribe**
+**Proyecto 2 · CLENA - Biblioteca Piloto del Caribe**
 Introducción a la Ingeniería de Sistemas y Computación · Entrega 1
 
 ---
