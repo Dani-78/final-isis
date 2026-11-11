@@ -19,8 +19,6 @@ La reunión con Backend está enlazada como grabación de GitHub; no se indicó 
 | Fecha | Reunión/actividad | Evidencia | Acta |
 |---|---|---|---|
 | 2026-10-16 | Conversación con Backend | [Video en GitHub](https://github.com/Dani-78/final-isis/blob/main/evidencias/evidencias-scrum/Proyecto%20P2-20261016_190830-Grabaci%C3%B3n%20de%20la%20reuni%C3%B3n.mp4) | [Acta](actas/2026-10-16-seguimiento-proyecto.md) |
-| Por identificar | Video Project 6 | Agregar fecha y enlace | Pendiente |
-| Por identificar | Video Project 7 | Agregar fecha y enlace | Pendiente |
 
 ## Evidencia de visita
 
