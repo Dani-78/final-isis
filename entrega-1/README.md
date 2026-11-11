@@ -15,9 +15,9 @@ Introducción a la Ingeniería de Sistemas y Computación · Entrega 1
 
 ---
 
-## Equipo de Backend aliado
+## Equipo de Backend
 
-- **Integrantes:** -
+- **Integrantes:** 
 
 Joshua Lobo Ríos
 
