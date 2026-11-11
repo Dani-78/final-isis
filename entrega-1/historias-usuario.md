@@ -3,8 +3,6 @@
 **Proyecto 2 · Catálogo Bibliográfico Accesible**
 CLENA - Biblioteca Piloto del Caribe
 
-Cada historia está registrada como Issue en el repositorio del equipo de Backend con la etiqueta `historia-usuario`. Los puntos los estima el equipo de Backend.
-
 ---
 
 ## HU-01 · Buscar con un solo campo desde el inicio
